@@ -73,7 +73,7 @@ height: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 13px;
     li a{
         background-color: transparent;
         color: #141a1f;
@@ -293,6 +293,7 @@ height: 410px;
 }
 section{
     background-color: rgb(244, 244, 244);
+    
 }
 
 .contain-thrd-text{
@@ -531,7 +532,6 @@ img{
 }
 .account{
   width: 25%;
-  margin-top: -65PX;
     p{
         
     color: #302e2a;
@@ -598,12 +598,18 @@ img{
 .menu{
     display: none;
 } .icon-list{
-    margin-right: 100px;
+    margin-right: 208px;
    } .icon-list li i{
-    font-size: 24px;
+    font-size: 20px;
+   }
+   .sub-icon{
+    margin-top: 10px;
+   }
+   header{
+    width: 965px;
    }
    main {
-    width: 950px;
+    width: 930px;
     margin-left: 15px;
 }
 .text-center{
@@ -619,7 +625,7 @@ img{
 
 @media (max-width: 910px){
    .icon-list{
-    margin-right: 100px;
+    margin-right: 188px;
    }
     }
 @media (max-width: 768px){
@@ -656,6 +662,9 @@ img{
         margin-top: 40px;
         margin-left: 0px;
     }
+    .navbar-icon{
+        margin-right: 155px;
+    }
     .payment-style
 .custom {
     width: 45%;
@@ -667,7 +676,9 @@ img{
         width: 630px;
     }
     section{
-      width: 616px;
+      
+    width: 760px;
+    margin-left: -15px;
     }
     
     .contain-img {
@@ -677,7 +688,8 @@ img{
         width: 100%;
     }
 .main-card img {
-    width: 615px;
+    width: 760px;
+    margin-left: -15px;
 }
 
 .product-desc
@@ -790,7 +802,7 @@ main {
         width: 110%;
     }
     .main-card img {
-        width: 340px;
+        width: 760px;
     }
     .icon-list{
         margin-right: 50px;
@@ -807,3 +819,43 @@ main {
         margin-top: 20%;
     }
     }
+
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-main, .navbar-icon {
+        display: flex;
+        align-items: center;
+    }
+    .menu-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .menu-list li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .icon-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .icon-list li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    /* Media queries for responsiveness */
+    @media only screen and (max-width: 768px) {
+        .menu-list {
+            display: none;
+        }
+        .icon-list {
+            display: flex;
+        }
+    }
+    
