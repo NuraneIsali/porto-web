@@ -14,7 +14,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    background-attachment: fixed;
     height: 100vh; 
 
 }
@@ -167,11 +167,12 @@ align-items: center;
 }
 main{
 width: 90%;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 90px;
+
 }
 .main-txt{
     margin-top: 30px;
+    width: 550px;
 
 }
 .main-card img{
@@ -566,7 +567,7 @@ img{
   
 .features{
     width: 25%;
-    margin-top: -30PX;
+  
       p{
         
     color: #302e2a;
@@ -601,15 +602,18 @@ img{
    } .icon-list li i{
     font-size: 24px;
    }
-
+   main {
+    width: 950px;
+    margin-left: 15px;
+}
 .text-center{
 
     text-align: left;
-    font-size: 0.85rem;
+    font-size: 8px;
    
     margin-left: 20%;
     margin-right: unset;
-    margin-top: 30%;
+    margin-top: 13%;
 }
 }
 
@@ -618,13 +622,15 @@ img{
     margin-right: 100px;
    }
     }
-
 @media (max-width: 768px){
+   header{
+    min-width: 760px;
+   }
     .menu{
         display: none;
     }
     .icon-list{
-        margin-right: 50px;
+        margin-right: 80px;
     }
     .contain-img img, .contain-img-two img {
         /* width: 274px; */
@@ -646,11 +652,63 @@ img{
     .menu{
         display: none;
     }
+    .top-cat-field {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .payment-style
+.custom {
+    width: 45%;
+}
+    .horizontal{
+        width: 630px;
+    }
+    .payment-style{
+        width: 630px;
+    }
+    section{
+      width: 616px;
+    }
     
+    .contain-img {
+        width: 100%;
+    }
+    .contain-img-two {
+        width: 100%;
+    }
+.main-card img {
+    width: 615px;
+}
+
+.product-desc
+span {
+    font-size: 26.2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 59.36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #777777;
+}
+.product-desc
+p {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 41px;
+    letter-spacing: -.9px;
+    text-align: center;
+}
+.main-txt h2 {
+    font-size: 2.75rem;
+}
+.account{
+    margin-top: 0px;
+}
 .features {
     width: 25%;
-    margin-top: -30PX;
-    margin-right: 80px;
+   
+    
 }
 .custom-icon {
     font-size: 24px !important;
@@ -677,17 +735,16 @@ p {
     padding-top: 20px;
 }
 footer {
-    width: 85%;
+    width: 630px;
     margin-left: 30px;
     margin-right: 30px;
 }
 header{
-    width: 100%;
+    width: 600px;
 }
 main {
-    width: 85%;
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 100%;
+  
 }
 .payment-style
 .custom
@@ -721,7 +778,7 @@ main {
        
         margin-left: 20%;
         margin-right: unset;
-        margin-top: 50%;
+        margin-top: 30%;
     }
     }
     
@@ -747,6 +804,6 @@ main {
        
         margin-left: 20%;
         margin-right: unset;
-        margin-top: 50%;
+        margin-top: 20%;
     }
     }
